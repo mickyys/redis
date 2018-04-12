@@ -1,6 +1,11 @@
 Redis
 =====
 Pasos a seguir para instalar redis en equipo windows  
+1. Se debe instalar [DOCKER](URL "https://www.docker.com")
+2. Descargar imagen con el comando
+    `docker run --name some-redis -d redis redis-server --appendonly yes`
+3. Iniciar cliente 
+    `docker run -it --link some-redis:redis --rm redis redis-cli -h redis -p 6379`
 
 Link:
 * [www.redis.io](URL "http://redis.io/")
