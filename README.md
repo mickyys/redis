@@ -3,7 +3,7 @@ Redis
 Pasos a seguir para instalar redis en equipo windows  
 
 Link:
-* [www.redis.io](URL "https://redis.io/")
+* [www.redis.io](URL "http://redis.io/")
 
 ## Comandos
 1. [SET](URL "https://redis.io/commands/set") mykey "Hola Mundo" ex 10 
